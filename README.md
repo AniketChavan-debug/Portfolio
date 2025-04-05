@@ -2,6 +2,8 @@
 
 This is my personal portfolio website, showcasing my skills, projects, and contact details as a web developer. This portfolio is designed to highlight my abilities and provide a simple way for potential clients or employers to get in touch with me.
 
+---
+
 ## Overview
 
 This portfolio website is a reflection of my web development skills. It includes sections such as:
