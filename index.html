@@ -3,76 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Software Developer</title>
+    <title>Your Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
 
-    <section id="hero">
-        <img src="https://media.licdn.com/dms/image/v2/D4D16AQHt88MEexr9wQ/profile-displaybackgroundimage-shrink_350_1400/B4DZVlzFePHAAc-/0/1741169646488?e=1749081600&v=beta&t=zOv_8CAkArnZvrAH5hJSYWnoXSwv-yqO6qbaY9HyQu0" alt="Software Developer">
-        <h1>Aniket Chavan</h1>
-      <p><h1>Aspiring Web Developer</h1></p>
+    <!-- Header Section: Profile and Introduction -->
+    <header>
+        <div class="container">
+            <div class="profile">
+                <img src="https://media.licdn.com/dms/image/v2/D4D03AQH_Izcbdhp1Og/profile-displayphoto-shrink_200_200/B4DZOK6DyaHIAY-/0/1733202297851?e=1749081600&v=beta&t=7HDFKsoza96fZuE1R9btWLE9OjWsIBz4SgxSQifbJ6g" alt="Your Image" class="profile-img">
+                <h1>Hi, I'm Aniket Chavan</h1>
+                <p>I'm a Web Developer passionate about creating dynamic and responsive websites.</p>
+                <a href="#contact" class="cta-button">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello, myself Aniket Chavan. I am a motivated and detail-oriented professional currently pursuing a
-Master of Computer Applications (MCA), with a strong foundation in
-computer applications and software development. Proficient in C++,
-Java, JavaScript, C#, .NET, HTML, NodeJS, Python, ReactJS, Figma,
-MongoDB, Tableau, Data Visualisation and SQL, I possess a keen
-interest in developing innovative solutions and optimizing software
-performance.
-With a strong analytical mindset and problem-solving abilities, I am
-eager to apply my technical expertise to real-world challenges. I thrive
-in collaborative environments and am committed to continuous
-learning to stay updated with emerging technologies. My adaptability
-and enthusiasm enable me to contribute effectively to dynamic teams,
-ensuring both personal and organizational growth.
-I am seeking an opportunity to leverage my skills in software
-development, database management, and web technologies in a
-challenging role that fosters professional development and innovation.</p>
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Vehicle Toll Payments: (Online Module)</h3>
+                <p>Basically, a toll payment model that works on RFID (Radio Frequency Identification). It uses wireless radio frequency signals for identification.</p>
+            </div>
+            <div class="project-card">
+                <h3>Orphanage Website</h3>
+                <p>Developed a dummy Orphanage Website where people can connect and make donation payments to the orphanage. People can also donate clothes and food to children.</p>
+            </div>
+            <div class="project-card">
+                <h3>Electrocardiogram (ECG) Machine (IOT Based)</h3>
+                <p>An ECG is used to record the electrical signals of the heart. It helps diagnose heart attacks and arrhythmias. This system is IoT-based for monitoring heart conditions in real-time.</p>
+            </div>
+            <div class="project-card">
+                <h3>Waste Management Classifier</h3>
+                <p>Developed a Waste Management Classifier using Python and CVZone,
+leveraging computer vision to detect and categorize waste types.
+Implemented real-time image processing for efficient classification.
+Optimized the model for accuracy and deployment in smart waste
+disposal systems.</p>
+            </div>
+        </div>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Vehicle Toll Payments: (Online Module)</h3>
-            <p>Basically, a toll payment model. Works on RFID (Radio Frequency Identification). An automated method of identification that utilizes non- contact wireless radio frequency signals wherein information is digitally embedded in RFID tags or smart labels which can be interpreted by
-radio signals by the reader.</p>
-            <a href="https://github.com/AniketChavan-debug/vehicle-toll-payments.git">View Project</a>
-        </div>
-      <div class="project">
-            <h3>Orphanage Website</h3>
-            <p>Developed a dummy Orphanage Website where people can connect and make donation payments to the orphanage. People can also donate clothes and foods to the orphanage children.</p>
-            <a href="https://github.com/AniketChavan-debug/Orphanage-Website.git">View Project</a>
-        </div>
-      <div class="project">
-            <h3>Electrocardiogram (ECG) Machine (IOT Based)</h3>
-            <p>An electrocardiogram (ECG) is a quick test to check the heartbeat. It records the electrical signals in the heart. Test results can help diagnose heart attacks and irregular heartbeats, called arrhythmias. ECG machines can be found in medical offices, hospitals, operating rooms and ambulances.</p>
-            <a href="https://github.com/AniketChavan-debug/Electrocardiogram-ECG-Machine-IOT-Based-.git">View Project</a>
-        </div>
-      <div class="project">
-            <h3>Waste Management Classifier</h3>
-            <p>Developed a Waste Management Classifier using Python and CVZone, leveraging computer vision to detect and categorize waste types. Implemented real-time image processing for efficient classification. Optimized the model for accuracy and deployment in smart waste disposal systems.</p>
-            <a href="https://github.com/AniketChavan-debug/Waste-Management-Classifier.git">View Project</a>
-        </div>
-        <!-- Repeat for additional projects -->
-    </section>
-
+    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: aniketchavan971412@gmail.com</p>
-        <p>Phone: +91-9920518134</p>
-        <p>LinkedIn: <a href="www.linkedin.com/in/aniket-g-chavan">Aniket Chavan</a></p>
-        <!-- Add other social links as needed -->
+        <div><h1>Contact</h1>
+                  <p>Email: aniketchavan971412@gmail.com</p>
+                   <p>Phone: +91-9920518134</p>
+                  <p>LinkedIn: <a href="https://www.linkedin.com/in/aniket-g-chavan">Aniket Chavan</a></p>
+      </div>
     </section>
+
+    <!-- Contact Form -->
+    <section id="contact-form-section" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Aniket Chavan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
